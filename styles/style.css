@@ -229,10 +229,10 @@ header{
 .popular-pro-title{
     padding-bottom: 16px;
 }
-.popular-head-description{
+.popular-head-description,.strategy-planning-description,.stength-description {
     font-weight: 400;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 33px;
     font-family: var(--inter-font-family);
     color: var(--property-descriptoion-color);
  
@@ -286,6 +286,43 @@ header{
 #we-different-part{
     padding-top: 130px;
     padding-bottom: 75px;
+}
+.strategy-part{
+    margin-top: 72px;
+    margin-bottom: 140px;
+}
+
+.strategy-planning-part{
+    align-items: center;
+    padding-right: 90px;
+}
+.propety-location-map{
+    padding-right: 26px;
+}
+.planning-title, .sthength-title{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--header-color);
+    font-family: var(--inter-font-family) ;
+    text-transform:  capitalize;
+}
+#contact-us{
+    padding: 13px 46px;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 6px;
+}
+.contact-us-btn{
+    margin-top: 24px;
+}
+#contact-us a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-family: var(--figtree-font-family);
+    color: var(--primary-color);
 }
 /* We are Different Part Style End  */
 
