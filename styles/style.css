@@ -26,6 +26,7 @@ img{
     --secondary-color: #0092E0;
     --header-color: #011E40;
     --paragraph-color: #3B5779;
+    --property-descriptoion-color: #696969;
     --inter-font-family: 'Inter', sans-serif;
     --figtree-font-family: 'Figtree', sans-serif;
 
@@ -39,6 +40,14 @@ img{
     margin: 0 auto;
 }
 
+.feat-title, .service-title, .popular-pro-title, .dif-other-title, .news-blog-title,.buy-pro-title{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 63px;
+    font-family:  var(--inter-font-family) ;
+    text-transform: capitalize;
+    color:  var(--header-color) ;
+}
 /* Header Part Start  */
 header{
     position: fixed;
@@ -69,6 +78,8 @@ header{
 }
 
 /* Main Style Part  */
+
+/* Banner Style Part Start  */
 #banner{
     padding-top: 136px;
     padding-bottom: 57px;
@@ -116,6 +127,10 @@ header{
     color: var(--secondary-color);
     border-radius: 7px;  
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: var(--figtree-font-family);
 }
 .pro-listing-btn{
     margin-right: 21px;
@@ -127,5 +142,29 @@ header{
     background-color: var(--secondary-color) ;
     color: var(--primary-color);
 }
+/* Banner Style Part End */
+
+/* Feature Propeties Style Part Start   */
+.feat-head{
+    margin-bottom: 48px;
+}
+.feat-properties{
+    display: flex;
+    column-gap: 32px;
+}
+.feat-img-title, .popular-pro-img-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--inter-font-family);
+    text-transform: capitalize;
+}
+.feat-img-title{
+    color: var(--property-descriptoion-color);
+    padding-top: 14px;
+}
+/* Feature Propeties Style Part End   */
+
+
 /* Main Style Part  */
 
