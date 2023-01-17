@@ -40,7 +40,7 @@ img{
     margin: 0 auto;
 }
 
-.feat-title, .service-title, .popular-pro-title, .dif-other-title, .news-blog-title,.buy-pro-title{
+.feat-title, .service-title, .popular-pro-title, .dif-other-title, .news-header,.buy-pro-title,.news-title{
     font-weight: 600;
     font-size: 52px;
     line-height: 63px;
@@ -108,7 +108,7 @@ header{
     line-height: 72px;
     text-transform: capitalize;
     color: var(--primary-color);
-    padding: 0 150px;
+    padding: 0 36px;
 }
 .special-word{
     color: var(--secondary-color);
@@ -119,19 +119,20 @@ header{
     font-size: 1.5rem;
     line-height: 2.1875rem;
     margin-bottom: 2.9375rem;
-    padding: 0.75rem 220px 0;
+    padding: 0.75rem 177px 0;
 }
 .pro-listing-btn,.pro-sell-btn{
     padding: 1.125rem 1.25rem;
     background-color: var(--primary-color) ;
     color: var(--secondary-color);
     border-radius: 7px;  
-    border: none;
+    border: 1px solid var(--secondary-color);
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
     font-weight: 600;
     font-size: 1.375rem;
     line-height: 2rem;
     font-family: var(--figtree-font-family);
+
 }
 .pro-listing-btn{
     margin-right: 21px;
@@ -329,7 +330,82 @@ header{
 }
 /* We are Different Part Style End  */
 
+/* News Part Style Start  */
+#news-part{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.title-news-section{
+    padding-bottom: 56px;
+}
+.news{
+   padding: 30px 22px;
+   border: 1px solid var(--property-descriptoion-color);
+   border-radius: 12px;
+}
+.news-title{
+    font-size: 23px;
+    line-height: 31px;
+    padding-bottom: 12px;
+}
+.news-summery{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--property-descriptoion-color);
+   
+}
+.news-footer{
+    padding: 15px 0;
+}
 
+.share-read-more-btn{
+    margin-top: 27px;
+}
 
-/* Main Style Part  */
+ .share{
+    margin-right: 10px;
+ }
+ .share, .read-more, .read-more-blog{
+    padding: 17px 37px; 
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: 1px solid var(--secondary-color);
+    transition: background-color .5s ease-in-out;
+ }
+.share a, .read-more a{
+    font-weight: 500;
+    font-size: 14.8112px;
+    line-height: 13px;
+    color: var(--secondary-color);
+    font-family: var(--figtree-font-family);
+    transition: color .5s ease-in-out;
+}
+.share:hover , .read-more:hover,.read-more-blog:hover {
+    background-color: var(--secondary-color);
+}
+.share:hover a, .read-more:hover a, .read-more-blog:hover a{
+    color: var(--primary-color);
+}
+.share a i{
+    margin-left: 10px;
+}
+.more-blog-btn{
+    margin-top: 48px;
+}
+.read-more-blog{
+    padding: 13px 15px;
+}
+.read-more-blog a{
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--secondary-color);
+    font-family: var(--figtree-font-family);
+    transition: color .5s ease-in-out;
+}
+/* News Part Style End  */
+
+/*--------------------------
+ Main Style Part  
+ -----------------------------*/
 
