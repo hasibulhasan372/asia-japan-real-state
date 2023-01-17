@@ -74,7 +74,58 @@ header{
     padding-bottom: 57px;
 }
 .banner-part{
-    background-image: url(../images/);
+    background-image: url(../images/banner-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.banner-overly{
+    padding-top: 172px;
+    padding-bottom: 198px;
+    background-color: rgba(0, 0, 0, 0.287);
+}
+.banner-text{
+    padding: 0 244px;
+    text-align: center;
+   
+}
+.head-line{
+    font-family: var(--inter-font-family);
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+.special-word{
+    color: var(--secondary-color);
+}
+.banner-para{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.pro-listing-btn,.pro-sell-btn{
+    padding: 18px 20px;
+    background-color: var(--primary-color) ;
+    color: var(--secondary-color);
+    border-radius: 7px;  
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+.pro-listing-btn{
+    margin-right: 21px;
+}
+.pro-listing-btn i,.pro-sell-btn i{
+    margin-right: 10px;
+}
+.pro-listing-btn:hover, .pro-sell-btn:hover{
+    background-color: var(--secondary-color) ;
+    color: var(--primary-color);
 }
 /* Main Style Part  */
 
