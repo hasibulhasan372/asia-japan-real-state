@@ -98,7 +98,6 @@ header{
     background-color: rgba(0, 0, 0, 0.287);
 }
 .banner-text{
-    padding: 0 244px;
     text-align: center;
    
 }
@@ -109,6 +108,7 @@ header{
     line-height: 72px;
     text-transform: capitalize;
     color: var(--primary-color);
+    padding: 0 150px;
 }
 .special-word{
     color: var(--secondary-color);
@@ -118,8 +118,8 @@ header{
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.1875rem;
-    padding-top: 0.75rem;
     margin-bottom: 2.9375rem;
+    padding: 0.75rem 220px 0;
 }
 .pro-listing-btn,.pro-sell-btn{
     padding: 1.125rem 1.25rem;
@@ -148,6 +148,9 @@ header{
 /* Feature Propeties Style Part Start   */
 #service-part{
     padding-bottom: 8.625rem;
+}
+.feat-title{
+    font-size: 29px;
 }
 .feat-head{
     margin-bottom: 3rem;
