@@ -348,7 +348,7 @@ header{
     line-height: 31px;
     padding-bottom: 12px;
 }
-.news-summery{
+.news-summery, .buy-sell-pro-des{
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
@@ -404,6 +404,39 @@ header{
     transition: color .5s ease-in-out;
 }
 /* News Part Style End  */
+
+/* Propety From STyel part Start  */
+#buy-sell-pro-section{
+    background-color: var(--secondary-color);
+    padding: 77px 0;
+    margin-top: 51px;
+    margin-bottom: 75px;
+}
+.buy-sell-pro-header{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    color: var(--primary-color);
+    font-family: var(--inter-font-family);
+    padding-bottom: 6px;
+}
+.buy-sell-pro-des{
+    color: var(--primary-color);
+    padding: 0 30px;
+}
+.buy-sell-btn{
+    margin-top: 50px;
+}
+.last-listing-btn{
+    color: var(--paragraph-color);
+}
+.last-listing-btn:hover{
+    border: 1px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+}
+/* Propety From STyel part End  */
 
 /*--------------------------
  Main Style Part  
