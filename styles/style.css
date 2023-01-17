@@ -363,16 +363,19 @@ header{
     margin-top: 1.6875rem;
 }
 
- .share{
-    margin-right: 10px;
- }
+
  .share, .read-more, .read-more-blog{
     padding: 1.0625rem 2.3125rem; 
     background-color: var(--primary-color);
     border-radius: 4px;
     border: 1px solid var(--secondary-color);
     transition: background-color .5s ease-in-out;
+}
+.share{
+    margin-right: 10px;
+    background-color: var(--secondary-color);
  }
+
 .share a, .read-more a{
     font-weight: 500;
     font-size: 0.875rem;
@@ -381,6 +384,9 @@ header{
     font-family: var(--figtree-font-family);
     transition: color .5s ease-in-out;
 }
+.share a{
+    color: var(--primary-color);
+ }
 .share:hover , .read-more:hover,.read-more-blog:hover {
     background-color: var(--secondary-color);
 }
@@ -405,12 +411,14 @@ header{
 }
 /* News Part Style End  */
 
-/* Propety From STyel part Start  */
+/* Propety Buy Sell Styel part Start  */
 #buy-sell-pro-section{
-    background-color: var(--secondary-color);
-    padding: 4.8125rem 0;
     margin-top: 3.1875rem;
     margin-bottom: 4.6875rem;
+}
+.buy-sell-form-part{
+    background-color: var(--secondary-color);
+    padding: 4.8125rem 0;
 }
 .buy-sell-pro-header{
     font-weight: 600;
