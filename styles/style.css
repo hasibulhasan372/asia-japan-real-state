@@ -126,6 +126,7 @@ header{
     background-color: var(--primary-color) ;
     color: var(--secondary-color);
     border-radius: 7px;  
+    border: none;
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
     font-weight: 600;
     font-size: 1.375rem;
@@ -233,12 +234,60 @@ header{
     font-size: 20px;
     line-height: 35px;
     font-family: var(--inter-font-family);
-    color: var(--paragraph-color);
+    color: var(--property-descriptoion-color);
+ 
 }
-.property-lisitng-fst-row{
+.popular-property-lisitng-fst-row{
     margin-top: 52px;
+    margin-bottom: 30px;
+}
+.popular-pro-area-name{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: var(--inter-font-family);
+    padding-top: 6px;
+    color: var(--property-descriptoion-color);
+}
+.popular-pro-details{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.popular-pro-details a{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--header-color);
+    margin-right: 29px;
+}
+.popular-pro-details a:last-child{
+    margin-right: 0;
+}
+.popular-pro-details a i{
+    margin-right: 6px;
+}
+.btn-primary{
+    margin-right: 12px;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+.btn-primary:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.see-more-pro{
+    margin-top: 48px;
+}
+#see-more-pro{
+    border: 1px solid var(--secondary-color);
+    text-transform: capitalize;
 }
 /* Popular Properties part End  */
+
+/* We are Different Part Style Start  */
+#we-different-part{
+    padding-top: 130px;
+    padding-bottom: 75px;
+}
+/* We are Different Part Style End  */
 
 
 
