@@ -116,27 +116,27 @@ header{
 .banner-para{
     color: var(--primary-color);
     font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    padding-top: 12px;
-    padding-bottom: 24px;
+    font-size: 1.5rem;
+    line-height: 2.1875rem;
+    padding-top: 0.75rem;
+    margin-bottom: 2.9375rem;
 }
 .pro-listing-btn,.pro-sell-btn{
-    padding: 18px 20px;
+    padding: 1.125rem 1.25rem;
     background-color: var(--primary-color) ;
     color: var(--secondary-color);
     border-radius: 7px;  
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
     font-family: var(--figtree-font-family);
 }
 .pro-listing-btn{
     margin-right: 21px;
 }
 .pro-listing-btn i,.pro-sell-btn i{
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .pro-listing-btn:hover, .pro-sell-btn:hover{
     background-color: var(--secondary-color) ;
@@ -145,25 +145,101 @@ header{
 /* Banner Style Part End */
 
 /* Feature Propeties Style Part Start   */
+#service-part{
+    padding-bottom: 8.625rem;
+}
 .feat-head{
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
 }
 .feat-properties{
     display: flex;
-    column-gap: 32px;
+    column-gap: 2rem;
 }
-.feat-img-title, .popular-pro-img-title{
+.feat-img-title,  .popular-pro-img-title{
     font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     font-family: var(--inter-font-family);
     text-transform: capitalize;
 }
 .feat-img-title{
     color: var(--property-descriptoion-color);
-    padding-top: 14px;
+    padding-top: 0.875rem;
 }
 /* Feature Propeties Style Part End   */
+
+/* Srvice Style Part Start   */
+#service-part{
+   padding-top: 3.25rem;   
+}
+.fst-line-service{
+    margin-top: 3rem;
+}
+.scnd-line-service{
+    margin-bottom: 2rem;
+}
+.service-content{
+    padding-bottom: 1.875rem;
+}
+.service-name{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 120%;
+    color: var(--header-color);
+    font-family: var(--inter-font-family);
+    text-transform: capitalize;
+    padding-top: 2rem;
+    padding-bottom: 1.0625rem;
+}
+.service-description{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 165%;
+    font-family: var(--inter-font-family);
+}
+.service-description{
+    color: var(--paragraph-color);
+    padding-bottom: 1.25rem;
+}
+.learn-more{
+    padding-top: 2rem;
+}
+.learn-more-btn{
+    padding: 1.0625rem 2.5rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 4px;
+
+}
+.learn-more-btn a{
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+/* Srvice Style Part End   */
+
+/* Popular Properties part Start  */
+#popular-properties{
+    background-color: #F3FBFF;
+    padding: 130px 0;
+}
+.popular-pro-title{
+    padding-bottom: 16px;
+}
+.popular-head-description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: var(--inter-font-family);
+    color: var(--paragraph-color);
+}
+.property-lisitng-fst-row{
+    margin-top: 52px;
+}
+/* Popular Properties part End  */
+
 
 
 /* Main Style Part  */
